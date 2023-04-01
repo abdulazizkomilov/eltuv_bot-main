@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'tbot.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(env('DB_URL'))
+    'default': dj_database_url.parse('postgres://fastdb_user:5LeBS1JVdAQMmuFhyGGqGbcxjALOD5jB@dpg-cgjnsa0rddleudr3rvbg-a.oregon-postgres.render.com/fastdb')
 }
 
 # DATABASES = {
