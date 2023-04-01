@@ -24,6 +24,7 @@ idna
 marshmallow
 multidict
 Pillow
+psycopg2
 pycares
 pycparser
 python-decouple
