@@ -15,7 +15,7 @@ cffi
 charset-normalizer
 config
 decouple
-Django==4.1.0
+Django
 django-environ
 djangorestframework
 frozenlist
