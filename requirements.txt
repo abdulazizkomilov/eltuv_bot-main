@@ -18,6 +18,7 @@ decouple
 Django
 django-environ
 djangorestframework
+dj-database-url
 frozenlist
 idna
 marshmallow
