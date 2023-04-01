@@ -1,0 +1,14 @@
+{
+    "builds": [{
+        "src": ["tbot/wsgi.py", "app.py"],
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb", "runtime": "pyhton3.9" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": ["tbot/wsgi.py", "app.py"]
+        }
+    ]
+    
+}
