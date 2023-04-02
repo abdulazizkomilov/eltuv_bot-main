@@ -19,14 +19,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#@&rk1&rd_0-5cgh$q2+nhxn1t(y38ljba&4ip5rxejnk8@i^e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['fastfood.up.railway.app']
 
 
 CSRF_COOKIE_DOMAIN = '*'
-CSRF_TRUSTED_ORIGINS = 'https://fastfood.up.railway.app/'
+CSRF_TRUSTED_ORIGINS = 'fastfood.up.railway.app'
 
 # Application definition
 
