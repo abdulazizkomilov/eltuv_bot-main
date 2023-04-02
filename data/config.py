@@ -7,7 +7,7 @@
 
 BOT_TOKEN = '6121137582:AAGe5-QhU3OXOe1QPa5V99gSdBi1sqGD4FA'  # Bot toekn
 ADMINS = [874354497]  # adminlar ro'yxati
-ADDRES='http://127.0.0.1:8000/'  # Xosting ip manzili
+ADDRES='https://web-production-d44c.up.railway.app/'  # Xosting ip manzili
 
 # DB_NAME = 'postgres'
 # DB_HOST = '2001101208'
