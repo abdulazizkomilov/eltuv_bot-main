@@ -25,6 +25,7 @@ marshmallow
 multidict
 Pillow
 psycopg2
+psycopg2-binary
 pycares
 pycparser
 python-decouple

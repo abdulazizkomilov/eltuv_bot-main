@@ -71,14 +71,14 @@ WSGI_APPLICATION = 'tbot.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': dj_database_url.parse('postgres://fastdb_user:5LeBS1JVdAQMmuFhyGGqGbcxjALOD5jB@dpg-cgjnsa0rddleudr3rvbg-a.oregon-postgres.render.com/fastdb')
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'yJsft0ibADhh5CNPEu0O',
+        'HOST': 'containers-us-west-179.railway.app',
+        'PORT': '7394',
     }
 }
 
