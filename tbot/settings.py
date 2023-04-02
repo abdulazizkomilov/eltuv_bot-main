@@ -25,6 +25,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
+CSRF_COOKIE_DOMAIN = '*'
+CSRF_TRUSTED_ORIGINS = 'https://web-production-d44c.up.railway.app/'
+
 # Application definition
 
 INSTALLED_APPS = [
