@@ -25,9 +25,6 @@ DEBUG = False
 ALLOWED_HOSTS = ['fastfood.up.railway.app']
 
 
-CSRF_COOKIE_DOMAIN = '*'
-CSRF_TRUSTED_ORIGINS = 'fastfood.up.railway.app'
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -49,6 +46,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CSRF_TRUSTED_ORIGINS = 'https://fastfood.up.railway.app'
 
 ROOT_URLCONF = 'tbot.urls'
 
