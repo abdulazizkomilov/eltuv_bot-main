@@ -1,5 +1,5 @@
 from pathlib import Path
-import os, dj_database_url
+import os
 import environ
 
 # Environment variables
@@ -70,7 +70,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'tbot.wsgi.application'
 
 
-# Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
