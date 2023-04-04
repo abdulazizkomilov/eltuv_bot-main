@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#@&rk1&rd_0-5cgh$q2+nhxn1t(y38ljba&4ip5rxejnk8@i^e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
@@ -47,7 +47,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = 'https://webfastfood.up.railway.app'
+CSRF_TRUSTED_ORIGINS = [
+    'https://webfastfood.up.railway.app',
+    'http://127:0.0.1:8000',
+]
 
 ROOT_URLCONF = 'tbot.urls'
 
@@ -128,11 +131,5 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
 }
-
-
-# HTTPS settings
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-
 
 
