@@ -7,7 +7,7 @@
 
 BOT_TOKEN = '6121137582:AAGe5-QhU3OXOe1QPa5V99gSdBi1sqGD4FA'  # Bot toekn
 ADMINS = [874354497]  # adminlar ro'yxati
-ADDRES='https://fastfood.up.railway.app/'  # Xosting ip manzili
+ADDRES='https://webfastfood.up.railway.app/'  # Xosting ip manzili
 
 # DB_NAME = 'postgres'
 # DB_HOST = '2001101208'
