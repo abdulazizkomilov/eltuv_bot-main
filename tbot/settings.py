@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-#@&rk1&rd_0-5cgh$q2+nhxn1t(y38ljba&4ip5rxejnk8@i^e
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['webfastfood.up.railway.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
