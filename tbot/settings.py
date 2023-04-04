@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-#@&rk1&rd_0-5cgh$q2+nhxn1t(y38ljba&4ip5rxejnk8@i^e
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['fastfood.up.railway.app']
+ALLOWED_HOSTS = ['webfastfood.up.railway.app']
 
 
 # Application definition
@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = 'https://fastfood.up.railway.app'
+CSRF_TRUSTED_ORIGINS = 'https://webfastfood.up.railway.app'
 
 ROOT_URLCONF = 'tbot.urls'
 
