@@ -18,7 +18,7 @@ class ProductModel(models.Model):
     title = models.CharField(max_length=255)
     price = models.FloatField()
     description = models.TextField(null=True, blank=True)
-    image = models.TextField()
+    image = models.TextField(blank=True, null=True)
 
     created = models.DateTimeField(auto_now_add=True)
 
